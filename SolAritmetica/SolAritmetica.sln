@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAritmetica", "WcfAritmetica\WcfAritmetica.csproj", "{9343BA66-883C-447D-81A9-1876D5CE1A97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTaritmetica", "UTaritmetica\UTaritmetica.csproj", "{0F832FC8-70DA-4A74-9974-426001E63FC2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9343BA66-883C-447D-81A9-1876D5CE1A97} = {9343BA66-883C-447D-81A9-1876D5CE1A97}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,7 +8,7 @@ using System.Text;
 
 namespace WcfAritmetica
 {
-
+    [ServiceContract]
     public interface IWSaritmetica
     {
         [OperationContract]
@@ -20,7 +20,9 @@ namespace WcfAritmetica
     {
         [DataMember]
         public int numeroA { get; set; }
+        [DataMember]
         public int numeroB { get; set; }
+        [DataMember]
         public int respuesta { get; set; }
     }
 }
